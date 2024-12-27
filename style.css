@@ -3,9 +3,51 @@
     margin: 0;
     padding: 0;
 }
+
+a{
+    text-decoration: none;
+}
+
 .top-nav{
     background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 16px;
+    box-shadow: 0px 8px 5px rgba(0,0,0,0.1);
 }
-.real-main{
-    
+.nav-heading{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 8px;
+}
+.nav-list{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 12px;
+}
+
+.nav-heading img{
+    height: 50px;
+}
+
+.nav-heading h2{
+    font-size: 34px;
+}
+
+.nav-heading h2 span{
+    color: #fff;
+    background-color: #3cd5da;
+    padding: 6px 10px;
+    border-radius: 16px;
+}
+
+.nav-list ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    list-style-type: none;
 }
