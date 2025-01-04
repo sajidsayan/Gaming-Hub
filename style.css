@@ -9,7 +9,8 @@ a{
 }
 
 body{
-    background-color: rgb(34, 34, 34);
+background-color: #121212;
+color: #e0e0e0;
 }
 
 .top-nav{
@@ -90,7 +91,7 @@ body{
     font-weight: 600;
 }
 .log-in:hover{
-    background-color: rgb(192, 192, 192);
+    background-color: rgb(255, 255, 255);
     color: black;
     border-color: black;
     cursor: pointer;
@@ -106,7 +107,7 @@ body{
     font-weight: 600;
 }
 .si-in:hover{
-    background-color: rgb(192, 192, 192);
+    background-color: rgb(255, 255, 255);
     color: black;
     border-color: black;
     cursor: pointer;
@@ -139,5 +140,103 @@ body{
     flex-direction: column;
     align-items: start;
     justify-content: start;
-    gap: 15px;
+    gap: 25px;
 }
+
+.know-more{
+    background-color: rgba(0, 255, 255, 0.719);
+    padding: 8px 12px;
+    font-size: 18px;
+    border-color: rgb(0, 0, 0);
+}
+.know-more:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-color: black;
+    cursor: pointer;
+}
+
+.game-1img{
+    width: 400px;
+    height: 380px;
+    border-radius: 20px;
+    margin-top: 28px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 10px;
+  }
+
+
+  .card {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    border-radius: 8px;
+    width: 100%;
+    height: 370px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.6);
+  }
+
+
+  .card-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-bottom: 1px solid #333;
+  }
+
+
+  .card-body {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+
+  .card-text {
+    font-size: 14px;
+    color: #b3b3b3;
+    margin-bottom: 15px;
+  }
+
+
+  .btn {
+    display: inline-block;
+    padding: 10px 15px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+
+  .btn:hover {
+    background-color: #0056b3;
+  }
+
