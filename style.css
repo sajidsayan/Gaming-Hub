@@ -243,6 +243,13 @@ color: #e0e0e0;
   .Card-head{
     text-align: center;
   }
+  .Card-head h1{
+    font-size: 36px;
+  }
+  .Card-head p{
+    font-size: 18px;
+    margin-top: 14px;
+  }
 
 
   .snip1533 {
@@ -322,4 +329,33 @@ color: #e0e0e0;
 .review{
     color: rgb(255, 255, 255);
     font-size: 18px;
+}
+
+.best-gm{
+  margin: 16px 24px;
+}
+
+.bestgm-card{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 22px;
+  margin: 30px 0;
+}
+.efoot-gm{
+  height: 160px;
+  width: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.bestgm-ds{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  gap: 20px;
+}
+.bestgm-ds h1{
+  font-size: 28px;
 }
